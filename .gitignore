@@ -1,0 +1,21 @@
+# Ignore large binary files
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.dds
+*.bmp
+*.jpg
+*.png
+
+# Ignore backups and temp files
+*.backup
+*.backup*
+*másolata*
+
+# Ignore python bytecode
+*.pyc
+__pycache__/
+
+# Usually don't ignore compiled txt files since it's a mod repo, 
+# but we ignore editor temp files if any.
