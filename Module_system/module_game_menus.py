@@ -950,6 +950,28 @@ game_menus = [
          (jump_to_menu, "mnu_start_character_1"),
        ]
        ),
+
+      ("dev_jump", [], "DEV JUMP: Instant Sandbox (Male, random face, skips tutorial)",
+       [
+         (troop_set_type,"trp_player", 0),
+         (assign,"$character_gender",tf_male),
+         
+         (troop_raise_attribute, "trp_player",ca_strength,2),
+         (troop_raise_attribute, "trp_player",ca_agility,2),
+         (troop_raise_attribute, "trp_player",ca_intelligence,2),
+         (troop_raise_attribute, "trp_player",ca_charisma,2),
+         (troop_raise_skill, "trp_player","skl_leadership",1),
+         (troop_raise_skill, "trp_player","skl_riding",1),
+         (troop_add_gold, "trp_player", 500),
+         
+         (assign, "$current_startup_quest_phase", 100),
+         (assign, "$town_entered", 0),
+         (assign, "$g_starting_town", "p_town_2"),
+         (assign, "$current_town", "p_town_2"),
+         
+         (party_relocate_near_party, "p_main_party", "p_town_2", 2),
+         (change_screen_return),
+       ]),
 	  ("go_back",[],"Go back",
        [
 	     (jump_to_menu,"mnu_start_game_0"),
