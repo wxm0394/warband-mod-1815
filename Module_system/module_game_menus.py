@@ -61,6 +61,12 @@ game_menus = [
     "none",
     [],
     [
+      
+      ("dev_jump", [], "Quick start (Dev Jump).",
+       [
+         (party_relocate_near_party, "p_main_party", "p_town_2", 2),
+         (change_screen_return),
+       ]),
       ("town_1",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Praven, in the Kingdom of Swadia.",
        [
          (assign, "$current_town", "p_town_6"),
