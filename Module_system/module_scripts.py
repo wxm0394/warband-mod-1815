@@ -50804,5 +50804,64 @@ scripts = [
     (cur_tableau_add_sun_light, pos8, 175,150,125),
     ]),
    #INVASION MODE END
-     
+
+  # script_finalize_new_game
+  # INPUT: arg1 = faction_id, arg2 = start_town_id
+  # OUTPUT: none
+  ("finalize_new_game",
+   [
+     (store_script_param, ":faction_id", 1),
+     (store_script_param, ":start_town_id", 2),
+
+     # 1. Gender and appearance
+     (troop_set_type, "trp_player", 0),
+     (assign, "$character_gender", tf_male),
+
+     # 2. Player and party name
+     (str_store_string, s0, "@Freeman"),
+     (troop_set_name, "trp_player", s0),
+     (troop_set_plural_name, "trp_player", s0),
+     (party_set_name, "p_main_party", s0),
+
+     # 3. Base attributes and skills (officer balanced, no unspent points)
+     (troop_raise_attribute, "trp_player", ca_strength, 10),
+     (troop_raise_attribute, "trp_player", ca_agility, 10),
+     (troop_raise_attribute, "trp_player", ca_intelligence, 8),
+     (troop_raise_attribute, "trp_player", ca_charisma, 8),
+     (troop_raise_skill, "trp_player", "skl_leadership", 4),
+     (troop_raise_skill, "trp_player", "skl_riding", 3),
+     (troop_raise_skill, "trp_player", "skl_athletics", 3),
+     (troop_raise_skill, "trp_player", "skl_ironflesh", 3),
+     (troop_raise_skill, "trp_player", "skl_power_strike", 3),
+     (troop_raise_skill, "trp_player", "skl_weapon_master", 3),
+     (troop_raise_proficiency_linear, "trp_player", wpt_one_handed_weapon, 100),
+     (troop_raise_proficiency_linear, "trp_player", wpt_two_handed_weapon, 80),
+     (troop_raise_proficiency_linear, "trp_player", wpt_polearm, 80),
+     (troop_raise_proficiency_linear, "trp_player", wpt_firearm, 120),
+
+     # 4. Starting gold and equipment
+     (troop_add_gold, "trp_player", 1500),
+     (troop_equip_items, "trp_player"),
+
+     # 5. Faction setting (freeman / commoners)
+     (troop_set_slot, "trp_player", slot_troop_occupation, slto_kingdom_hero),
+     (assign, "$players_kingdom", 0),
+     (try_begin),
+       (gt, ":faction_id", 0),
+       (faction_set_slot, "fac_player_faction", slot_faction_culture, ":faction_id"),
+     (try_end),
+
+     # 6. Relocate to starting town (Brussels)
+     (assign, "$current_town", ":start_town_id"),
+     (assign, "$g_starting_town", ":start_town_id"),
+     (party_relocate_near_party, "p_main_party", ":start_town_id", 2),
+
+     # 7. Completely skip tutorial quest
+     (assign, "$current_startup_quest_phase", 100),
+     (assign, "$town_entered", 0),
+
+     # 8. Return to world map
+     (set_show_messages, 1),
+     (change_screen_return),
+   ]),
 ]
