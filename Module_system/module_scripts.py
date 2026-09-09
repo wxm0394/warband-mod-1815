@@ -50823,27 +50823,11 @@ scripts = [
      (troop_set_plural_name, "trp_player", s0),
      (party_set_name, "p_main_party", s0),
 
-     # 3. Base attributes and skills (officer balanced, no unspent points)
-     (troop_raise_attribute, "trp_player", ca_strength, 10),
-     (troop_raise_attribute, "trp_player", ca_agility, 10),
-     (troop_raise_attribute, "trp_player", ca_intelligence, 8),
-     (troop_raise_attribute, "trp_player", ca_charisma, 8),
-     (troop_raise_skill, "trp_player", "skl_leadership", 4),
-     (troop_raise_skill, "trp_player", "skl_riding", 3),
-     (troop_raise_skill, "trp_player", "skl_athletics", 3),
-     (troop_raise_skill, "trp_player", "skl_ironflesh", 3),
-     (troop_raise_skill, "trp_player", "skl_power_strike", 3),
-     (troop_raise_skill, "trp_player", "skl_weapon_master", 3),
-     (troop_raise_proficiency_linear, "trp_player", wpt_one_handed_weapon, 100),
-     (troop_raise_proficiency_linear, "trp_player", wpt_two_handed_weapon, 80),
-     (troop_raise_proficiency_linear, "trp_player", wpt_polearm, 80),
-     (troop_raise_proficiency_linear, "trp_player", wpt_firearm, 120),
-
-     # 4. Starting gold and equipment
+     # 3. Starting gold and equipment
      (troop_add_gold, "trp_player", 1500),
      (troop_equip_items, "trp_player"),
 
-     # 5. Faction setting (freeman / commoners)
+     # 4. Faction setting (freeman / commoners)
      (troop_set_slot, "trp_player", slot_troop_occupation, slto_kingdom_hero),
      (assign, "$players_kingdom", 0),
      (try_begin),
@@ -50851,17 +50835,17 @@ scripts = [
        (faction_set_slot, "fac_player_faction", slot_faction_culture, ":faction_id"),
      (try_end),
 
-     # 6. Relocate to starting town (Brussels)
+     # 5. Relocate to starting town (Brussels)
      (assign, "$current_town", ":start_town_id"),
      (assign, "$g_starting_town", ":start_town_id"),
      (party_relocate_near_party, "p_main_party", ":start_town_id", 2),
 
-     # 7. Completely skip tutorial quest
+     # 6. Completely skip tutorial quest
      (assign, "$current_startup_quest_phase", 100),
      (assign, "$town_entered", 0),
 
-     # 8. Return to world map
+     # 7. Go straight to world map (skip character sheet & face gen entirely)
      (set_show_messages, 1),
-     (change_screen_return),
+     (change_screen_map),
    ]),
 ]

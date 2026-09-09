@@ -1,5 +1,5 @@
 map_icons_file version 1
-198
+189
 player 0 player 0.150000 17 0.150000 0.173000 0.000000 0
 
 
@@ -568,32 +568,5 @@ banner_136 0 map_flag_15 0.300000 0 0 0 0 0
 
 
 bandit_lair 1 map_bandit_lair 0.450000 0 0 0 0 0
-
-
-map_flag_bandit_f 0 map_flag_bandit_f 0.300000 0 0 0 0 0
-
-
-map_flag_bandit_b 0 map_flag_bandit_b 0.300000 0 0 0 0 0
-
-
-map_flag_bandit_c 0 map_flag_bandit_c 0.300000 0 0 0 0 0
-
-
-map_flag_bandit_a 0 map_flag_bandit_a 0.300000 0 0 0 0 0
-
-
-map_flag_bandit_d 0 map_flag_bandit_d 0.300000 0 0 0 0 0
-
-
-map_flag_bandit_e 0 map_flag_bandit_e 0.300000 0 0 0 0 0
-
-
-camp_plain 0 bell_tent_icon 1.000000 0 0 0 0 0
-
-
-camp_entrench 0 entrench_tent_icon 1.000000 0 0 0 0 0
-
-
-last_entrench 0 entrench_old_icon 1.000000 0 0 0 0 0
 
 

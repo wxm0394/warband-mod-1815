@@ -243,7 +243,7 @@ tf_guarantee_all_wo_ranged = tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_
 troops = [
   ["player","Player","Player",tf_hero|tf_unmoveable_in_party_window,no_scene,reserved,fac_player_faction,
    [],
-   str_4|agi_4|int_4|cha_4,wp(15),0,0x000000018000000136db6db6db6db6db00000000001db6db0000000000000000],
+   str_10|agi_10|int_8|cha_8|level(1),wp_one_handed(100)|wp_two_handed(80)|wp_polearm(80)|wp_archery(15)|wp_crossbow(15)|wp_throwing(15)|wp_firearm(120),knows_leadership_4|knows_riding_3|knows_athletics_3|knows_ironflesh_3|knows_power_strike_3|knows_weapon_master_3,0x000000018000000136db6db6db6db6db00000000001db6db0000000000000000],
   ["multiplayer_profile_troop_male","multiplayer_profile_troop_male","multiplayer_profile_troop_male", tf_hero|tf_guarantee_all, 0, 0,fac_commoners,
    [itm_leather_jerkin, itm_leather_boots],
    0, 0, 0, 0x000000018000000136db6db6db6db6db00000000001db6db0000000000000000],
