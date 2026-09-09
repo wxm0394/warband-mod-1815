@@ -4381,9 +4381,9 @@ scripts = [
     [
       (store_script_param_2, ":num_hours"),
       (store_div, ":num_days", ":num_hours", 24),
-      (store_add, ":cur_day", ":num_days", 23),
+      (store_add, ":cur_day", ":num_days", 20),
       (assign, ":cur_month", 3),
-      (assign, ":cur_year", 1257),
+      (assign, ":cur_year", 1815),
       (assign, ":try_range", 99999),
       (try_for_range, ":unused", 0, ":try_range"),
         (try_begin),
