@@ -1,4 +1,4 @@
-1274
+1292
 qstr_{reg61}.0{reg62} {reg61}.0{reg62}
 qstr_{reg61}.{reg62} {reg61}.{reg62}
 qstr_Shot_distance:_{s1}_ Shot_distance:_{s1}_meters.
@@ -1273,3 +1273,21 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_{!}{s9}_{s10} {!}{s9},_{s10}
+qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%
+qstr_{!}DEBUG_:_{s1}_is_t {!}DEBUG_:_{s1}_is_trading_with_villagers
+qstr_{!}DEBUG____Trade_of_ {!}DEBUG_--_Trade_of_{s5}_from_{s3}_to_{s4}_brings_price_from_{reg4}_to_{reg5}
+qstr_{!}DEBUG____hardship {!}DEBUG_--_hardship_index_for_{s4}_=_{reg0}
+qstr_Added_money_for_your Added_money_for_your_old_horse
+qstr_{!}used_troop_no_is_ {!}used_troop_no_is_{reg0}
+qstr_{!}sending_message_t {!}sending_message_to_{reg0}_multiplayer_event_other_event_ccoop_count_down_invisible
+qstr_{!}spawn_required_is {!}spawn_required_is:_{reg0}
+qstr_{!}num_troops_for_wa {!}num_troops_for_wave_is_{reg0}
+qstr_{!}num_troops_for_wav {!}num_troops_for_wave_is_gt_spawn_required._reduced_spawn_amount_is_{reg0},_reduced_spawn_amount_mod_is_{reg1}
+qstr_{!}original_spawned_ {!}original_spawned_troop_count_is_{reg0}
+qstr_{!}reducing_spawn_am {!}reducing_spawn_amount_by_one
+qstr_{!}spawning_bot_grou {!}spawning_bot_group_{reg0}:_{reg2}_{s0}_from_entry_point_{reg1}
+qstr_{!}destroy_prison_ca {!}destroy_prison_cart
+qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
+qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
+qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}

@@ -1,43 +1,50 @@
-﻿pt_none|无 
-pt_rescued_prisoners|被 救 的 俘 虏 
-pt_enemy|敌 人 
-pt_hero_party|英 雄 部 队 
-pt_village_defenders|村 庄 卫 队 
-pt_cattle_herd|牛 群 
-pt_looters|劫 匪 
-pt_manhunters|赏 金 猎 人 
-pt_steppe_bandits|响 马 
-pt_taiga_bandits|雪 原 强 盗 
-pt_desert_bandits|沙 漠 强 盗 
-pt_forest_bandits|绿 林 强 盗 
-pt_mountain_bandits|山 贼 
-pt_sea_raiders|海 寇 
-pt_deserters|乱 军 
-pt_merchant_caravan|商 人 的 商 队 
-pt_troublesome_bandits|难 对 付 的 强 盗 
-pt_bandits_awaiting_ransom|等 待 赎 金 的 强 盗 
-pt_kidnapped_girl|被 绑 架 的 女 孩 
-pt_village_farmers|村 民 
-pt_spy_partners|不 显 眼 的 旅 行 者 
-pt_runaway_serfs|逃 跑 的 农 奴 
-pt_spy|普 通 的 市 民 
-pt_sacrificed_messenger|献 祭 信 史 
-pt_forager_party|征 粮 队 
-pt_scout_party|侦 察 队 
-pt_patrol_party|巡 逻 队 
-pt_messenger_party|信 使 
-pt_raider_party|突 袭 队 
-pt_raider_captives|猎 俘 队 
-pt_kingdom_caravan_party|商 队 
-pt_prisoner_train_party|运 俘 队 
-pt_default_prisoners|逃 走 的 俘 虏 
-pt_routed_warriors|溃 军 
-pt_center_reinforcements|增 援 部 队 
-pt_steppe_bandit_lair|响 马 老 巢 
-pt_taiga_bandit_lair|雪 原 强 盗 老 巢 
-pt_desert_bandit_lair|沙 漠 强 盗 老 巢 
-pt_forest_bandit_lair|绿 林 强 盗 营 地 
-pt_mountain_bandit_lair|山 贼 藏 身 处 
-pt_sea_raider_lair|海 寇 码 头 
-pt_looter_lair|绑 匪 藏 身 处 
-pt_leaded_looters|盗 贼 团 
+﻿pt_none|无
+pt_rescued_prisoners|获 救 的 俘 虏
+pt_enemy|敌 军 部 队
+pt_hero_party|将 领 部 队
+pt_village_defenders|村 庄 民 团
+pt_cattle_herd|牛 群
+pt_looters|强 盗 流 民
+pt_manhunters|乌 兰 枪 骑 兵 巡 逻 队
+pt_black_khergit_raiders|黑 骑 兵 劫 掠 队
+pt_dark_hunters|暗 夜 猎 手
+pt_forest_bandits|法 军 骑 兵 巡 逻 队
+pt_taiga_bandits|法 军 巡 逻 小 队
+pt_steppe_bandits|近 卫 骑 兵 巡 逻 队
+pt_sea_raiders|后 备 军 游 击 队
+pt_mountain_bandits|逃 兵 武 装 队
+pt_desert_bandits|国 境 步 兵 巡 逻 队
+pt_deserters|溃 兵 脱 团 者
+pt_merchant_caravan|商 队
+pt_troublesome_bandits|难 缠 的 匪 徒
+pt_bandits_awaiting_ransom|等 待 赎 金 的 匪 徒
+pt_kidnapped_girl|被 绑 架 的 少 女
+pt_village_farmers|村 民
+pt_spy_partners|不 起 眼 的 旅 人
+pt_runaway_serfs|逃 亡 农 奴
+pt_spy|普 通 市 民
+pt_sacrificed_messenger|殉 职 信 使
+pt_forager_party|征 粮 队
+pt_scout_party|侦 察 小 队
+pt_patrol_party|巡 逻 队
+pt_messenger_party|联 络 信 使
+pt_raider_party|突 袭 小 队
+pt_raider_captives|突 袭 队 俘 虏
+pt_kingdom_caravan_party|王 国 商 队
+pt_prisoner_train_party|战 俘 押 送 队
+pt_default_prisoners|俘 虏
+pt_routed_warriors|溃 散 败 兵
+pt_center_reinforcements|守 备 援 军
+pt_kingdom_hero_party|主 力 军 团
+pt_forest_bandit_lair|森 林 营 地
+pt_taiga_bandit_lair|冻 原 哨 所
+pt_steppe_bandit_lair|平 原 据 点
+pt_sea_raider_landing|登 陆 据 点
+pt_mountain_bandit_hideout|山 岭 藏 匿 点
+pt_desert_bandit_lair|边 境 据 点
+pt_looter_lair|绑 匪 巢 穴
+pt_leaded_looters|匪 帮 团 伙
+pt_dplmc_spouse|你 的 配 偶
+pt_dplmc_gift_caravan|你 的 护 送 商 队
+pt_dplmc_recruiter|募 兵 官
+pt_entrench|野 战 堑 壕 工 事

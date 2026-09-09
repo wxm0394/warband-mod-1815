@@ -1,18 +1,34 @@
-﻿fac_no_faction|无 阵 营 
-fac_commoners|平 民 
-fac_outlaws|不 法 之 徒 
-fac_neutral|中 立 者 
-fac_innocents|无 辜 者 
-fac_merchants|商 人 
-fac_player_faction|玩 家 阵 营 
-fac_player_supporters_faction|某 个 意 淫 王 国 
-fac_kingdom_1|斯 瓦 迪 亚 王 国 
-fac_kingdom_2|维 吉 亚 王 国 
-fac_kingdom_3|库 吉 特 汗 国 
-fac_kingdom_4|诺 德 王 国 
-fac_kingdom_5|罗 多 克 王 国 
-fac_kingdom_6|萨 兰 德 苏 丹 国 
-fac_manhunters|赏 金 猎 人 
-fac_deserters|乱 军 
-fac_mountain_bandits|山 贼 
-fac_forest_bandits|绿 林 强 盗 
+﻿fac_no_faction|无 阵 营
+fac_commoners|平 民 百 姓
+fac_outlaws|不 法 之 徒
+fac_neutral|中 立 地 区
+fac_innocents|平 民 无 辜 者
+fac_merchants|商 会 行 会
+fac_dark_knights|黑 骑 士 团
+fac_black_khergits|黑 库 吉 特
+fac_culture_1|法 兰 西 文 化
+fac_culture_2|普 鲁 士 文 化
+fac_culture_3|大 不 列 颠 文 化
+fac_culture_4|荷 兰 文 化
+fac_culture_5|德 意 志 文 化
+fac_culture_6|奥 地 利 文 化
+fac_culture_7|通 用 欧 陆 文 化
+fac_player_faction|玩 家 军 团
+fac_player_supporters_faction|同 盟 复 国 军
+fac_kingdom_1|法 兰 西 第 一 帝 国
+fac_kingdom_2|普 鲁 士 王 国
+fac_kingdom_3|大 不 列 颠 联 合 王 国
+fac_kingdom_4|尼 德 兰 联 合 王 国
+fac_kingdom_5|德 意 志 同 盟
+fac_kingdom_6|哈 布 斯 堡 帝 国
+fac_kingdoms_end|各 大 王 国 疆 界
+fac_robber_knights|强 盗 匪 帮
+fac_khergits|异 邦 骑 兵
+fac_manhunters|赏 金 猎 人
+fac_deserters|战 场 逃 兵
+fac_mountain_bandits|山 区 土 匪
+fac_forest_bandits|绿 林 劫 匪
+fac_undeads|亡 灵 怪 客
+fac_slavers|人 贩 武 装
+fac_peasant_rebels|农 民 起 义 军
+fac_noble_refugees|流 亡 贵 族
